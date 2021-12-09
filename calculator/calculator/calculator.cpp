@@ -36,6 +36,25 @@ bool Bolshe(int a, int b) {
 }
 int main()
 {
-    int a, b;
+    int a, b, zn;
+    cin >> a;
+    cin >> b;
+    cin >> zn;
+    switch (zn)
+        case 1:
+            cout << Plus(a, b);
+            break;
+        case 2:
+            cout << Minus(a, b);
+            break;
+        case 3:
+            cout << Umnoj(a, b);
+            break;
+        case 4:
+            cout << Delenie(a, b);
+            break;
+
+           
+
 }
 
